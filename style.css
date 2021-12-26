@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: rgb(12, 12, 63);
+    color: cornsilk;
+    padding-top: 30px;
+    font-family:sans-serif;
+}
+
+li{
+    list-style-type: none;
+    visibility:hidden;
+}
+li:hover{
+    transform: scale(1.25);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+container{
+    font-size: xx-large;
+}
+#text{
+    width:40%;
+    height: 25px;
+    border: none;
+}
+#demo2:hover{
+    transform: scale(1.1);
+
+}
+#msg{
+    color:rgb(182, 97, 97);
+    font-size: 30px;
+}
